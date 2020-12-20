@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>After the Submission has been submitted for review, user should no longer be able to edit the record and related lists.</description>
+        <name>x_560219_se_skill_assessment.*</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[//if submission state is not 0 <<after submission>>, answer is true
+//current: related list
+//parent: record's linked with related list
+answer = true;
+if(current.parent!='' && current.parent.getDisplayValue().indexOf('SUBM') >-1){
+	if(current.parent.state!=0)
+	{
+		answer=false;
+	}
+}
+]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 20:29:58</sys_created_on>
+        <sys_id>de14b13bdbcde8101738656b4b9619d8</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_560219_se_skill_assessment.*</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_security_acl_de14b13bdbcde8101738656b4b9619d8</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 21:07:25</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_security_acl_de14b13bdbcde8101738656b4b9619d8</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;After the Submission has been submitted for review, user should no longer be able to edit the record and related lists.&lt;/description&gt;&lt;name&gt;x_560219_se_skill_assessment.*&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[//if submission state is not 0 &lt;&lt;after submission&gt;&gt;, answer is true
+//current: related list
+//parent: record's linked with related list
+answer = true;
+if(current.parent!='' &amp;&amp; current.parent.getDisplayValue().indexOf('SUBM') &gt;-1){
+	if(current.parent.state!=0)
+	{
+		answer=false;
+	}
+}
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-19 20:29:58&lt;/sys_created_on&gt;&lt;sys_id&gt;de14b13bdbcde8101738656b4b9619d8&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_560219_se_skill_assessment.*&lt;/sys_name&gt;&lt;sys_package display_value="Skill Evaluation" source="x_560219_se"&gt;efb54d9bdb85a8101738656b4b9619c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Skill Evaluation"&gt;efb54d9bdb85a8101738656b4b9619c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_de14b13bdbcde8101738656b4b9619d8&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-19 21:07:25&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>647659270</payload_hash>
+        <record_name>x_560219_se_skill_assessment.*</record_name>
+        <reverted_from/>
+        <source>efb54d9bdb85a8101738656b4b9619c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 21:07:25</sys_created_on>
+        <sys_id>2b1dbdbbdbcde8101738656b4b961942</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1767cd421e10000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 21:07:25</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>a31dbdbb31cde810df34f3e48e0dac42</update_guid>
+        <update_guid_history>a31dbdbb31cde810df34f3e48e0dac42:647659270,a448f9bb77cde810b0362e558e20b6f7:1099710492,96a4393b8fcde8109ccf47c578102bc6:-2054034259,4784f53b0ccde810aabb182624a61bd5:-304351395</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 21:11:14</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>69837a982e26495c96abc6beadc955e4</sys_id>
+        <sys_metadata>de14b13bdbcde8101738656b4b9619d8</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_skill_assessment.*</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent display_value="x_560219_se_skill_assessment">dcc0611fdbc5a8101738656b4b961937</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_de14b13bdbcde8101738656b4b9619d8</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_de14b13bdbcde8101738656b4b9619d8">2b1dbdbbdbcde8101738656b4b961942</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 21:11:14</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

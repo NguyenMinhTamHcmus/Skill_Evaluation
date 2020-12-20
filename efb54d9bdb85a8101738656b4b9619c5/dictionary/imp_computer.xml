@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Computer" max_length="40" name="imp_computer" sizeclass="160" type="collection">
+        <element attributes="edge_encryption_enabled=true" label="Product line" max_length="40" name="u_product_line" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Skills" max_length="40" name="u_skills" type="string"/>
+    </element>
+</database>

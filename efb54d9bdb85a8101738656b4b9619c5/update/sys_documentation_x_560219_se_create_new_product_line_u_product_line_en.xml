@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="u_product_line" label="Product line" language="en" table="x_560219_se_create_new_product_line">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_product_line</element>
+            <help/>
+            <hint/>
+            <label>Product line</label>
+            <language>en</language>
+            <name>x_560219_se_create_new_product_line</name>
+            <plural>Product lines</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-18 08:39:35</sys_created_on>
+            <sys_id>5b5882dbdb49a8101738656b4b961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Product line</sys_name>
+            <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+            <sys_update_name>sys_documentation_x_560219_se_create_new_product_line_u_product_line_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-18 08:39:35</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_action">
+    <sys_ui_action action="INSERT_OR_UPDATE">
+        <action_name>show_related_link</action_name>
+        <active>true</active>
+        <client>false</client>
+        <client_script_v2><![CDATA[function onClick(g_form) {
+
+}]]></client_script_v2>
+        <comments>Once all data are entered and verified, user can click on the button Submit for review (change state) to submit the record. And do not allow user to submit a new record if user has an 'in-progress' record.</comments>
+        <condition>current.se_submission_state == "0" &amp;&amp; gs.hasRole("x_560219_se.se_user")</condition>
+        <form_action>true</form_action>
+        <form_button>true</form_button>
+        <form_button_v2>false</form_button_v2>
+        <form_context_menu>true</form_context_menu>
+        <form_link>true</form_link>
+        <form_menu_button_v2>false</form_menu_button_v2>
+        <form_style/>
+        <hint>sadsa</hint>
+        <isolate_script>false</isolate_script>
+        <list_action>false</list_action>
+        <list_banner_button>false</list_banner_button>
+        <list_button>false</list_button>
+        <list_choice>false</list_choice>
+        <list_context_menu>false</list_context_menu>
+        <list_link>false</list_link>
+        <list_save_with_form_button>false</list_save_with_form_button>
+        <list_style/>
+        <messages>Once all data are entered and verified, user can click on the button Submit for review (change state) to submit the record.  And do not allow user to submit a new record if user has an 'in-progress' record.</messages>
+        <name>Submit for review</name>
+        <onclick/>
+        <order>100</order>
+        <script><![CDATA[var scriptSubmission = new serverSubmission(); 
+if(scriptSubmission.checkUserHasNoInProgressSubmission()){
+	//if user doesn't have an 'in-progress' record.
+	var grSubmission = new GlideRecord('x_560219_se_submission');
+	grSubmission.addQuery('number', current.number);
+	grSubmission.query();
+	//caculate total score
+	var totalScore = 0;
+	var grSkillAssessment = new GlideRecord('x_560219_se_skill_assessment');
+	grSkillAssessment.addQuery('se_skill_assessment_submission', current.sys_id);
+	grSkillAssessment.query();
+	while(grSkillAssessment.next()){
+		var curScore = grSkillAssessment.getValue('se_skill_assessment_number_proficiency_level');
+		if(curScore != null){
+			totalScore = totalScore + parseInt(curScore);
+		}
+	}
+	//caculate level for submission
+	var minScore = 0, level_sysid = null;
+	var grLevel = new GlideRecord('x_560219_se_level');
+	grLevel.query();
+	while(grLevel.next()){
+		score = parseInt(grLevel.se_level_minscore); 
+		if(score <= totalScore && score >= minScore){
+			minScore = score;
+			level_sysid = String(grLevel.sys_id);
+		}
+	}
+
+	//update submission
+	while(grSubmission.next()){
+		//change state into submitted and update total score
+		grSubmission.se_submission_state = "1";
+		grSubmission.se_submission_score = totalScore;
+		grSubmission.se_submission_level = level_sysid;
+		grSubmission.update();
+	}
+
+	gs.addInfoMessage("Submitted successfully");
+}
+//else prevent user submit new record, and notify for user this in-progress record
+else{
+	gs.addInfoMessage("You have an in-progress submission, please wait for us to process it.");
+}]]></script>
+        <show_insert>false</show_insert>
+        <show_multiple_update>false</show_multiple_update>
+        <show_query>false</show_query>
+        <show_update>true</show_update>
+        <sys_class_name>sys_ui_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 16:45:47</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6287739fdb8da8101738656b4b961948</sys_id>
+        <sys_mod_count>85</sys_mod_count>
+        <sys_name>Submit for review</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_ui_action_6287739fdb8da8101738656b4b961948</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 10:33:27</sys_updated_on>
+        <table>x_560219_se_submission</table>
+        <ui11_compatible>true</ui11_compatible>
+        <ui16_compatible>false</ui16_compatible>
+    </sys_ui_action>
+</record_update>

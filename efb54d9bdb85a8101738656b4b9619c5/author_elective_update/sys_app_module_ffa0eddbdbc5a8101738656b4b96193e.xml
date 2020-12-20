@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
+    <sys_app_module action="DELETE">
+        <active>true</active>
+        <application display_value="Certificate Application">73a0e9dbdbc5a8101738656b4b9619bd</application>
+        <assessment/>
+        <device_type/>
+        <filter/>
+        <hint/>
+        <homepage/>
+        <image/>
+        <link_type>LIST</link_type>
+        <map_page/>
+        <mobile_title>Cert Applications</mobile_title>
+        <mobile_view_name>Mobile</mobile_view_name>
+        <name>x_560219_se_cert_application</name>
+        <order/>
+        <override_menu_roles>false</override_menu_roles>
+        <query/>
+        <report/>
+        <roles>x_560219_se.cert_application_user</roles>
+        <sys_class_name>sys_app_module</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 05:46:13</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>ffa0eddbdbc5a8101738656b4b96193e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cert Applications</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_app_module_ffa0eddbdbc5a8101738656b4b96193e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 05:46:13</sys_updated_on>
+        <timeline_page/>
+        <title>Cert Applications</title>
+        <uncancelable>false</uncancelable>
+        <view_name/>
+        <window_name/>
+    </sys_app_module>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_app_module_ffa0eddbdbc5a8101738656b4b96193e</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module"><sys_app_module action="INSERT_OR_UPDATE"><active>true</active><application display_value="Certificate Application">73a0e9dbdbc5a8101738656b4b9619bd</application><assessment/><device_type/><filter/><hint/><homepage/><image/><link_type>LIST</link_type><map_page/><mobile_title>Cert Applications</mobile_title><mobile_view_name>Mobile</mobile_view_name><name>x_560219_se_cert_application</name><order/><override_menu_roles>false</override_menu_roles><query/><report/><roles>x_560219_se.cert_application_user</roles><sys_class_name>sys_app_module</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-18 05:46:13</sys_created_on><sys_domain>global</sys_domain><sys_domain_path>/</sys_domain_path><sys_id>ffa0eddbdbc5a8101738656b4b96193e</sys_id><sys_mod_count>0</sys_mod_count><sys_name>Cert Applications</sys_name><sys_overrides/><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_update_name>sys_app_module_ffa0eddbdbc5a8101738656b4b96193e</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-18 05:46:13</sys_updated_on><timeline_page/><title>Cert Applications</title><uncancelable>false</uncancelable><view_name/><window_name/></sys_app_module></record_update>]]></payload>
+        <payload_hash>934508189</payload_hash>
+        <record_name>Cert Applications</record_name>
+        <reverted_from/>
+        <source>efb54d9bdb85a8101738656b4b9619c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 05:46:13</sys_created_on>
+        <sys_id>ffa0eddbdbc5a8101738656b4b961940</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176746262f70000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 05:46:13</sys_updated_on>
+        <type>Module</type>
+        <update_guid>3ba0eddb8ac5a8105a6c93f913e48940</update_guid>
+        <update_guid_history>3ba0eddb8ac5a8105a6c93f913e48940:934508189</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="Cert Applications">14f0651fdbc5a8101738656b4b9619f1</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 05:47:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_app_module">sys_app_module</sys_db_object>
+        <sys_id>1044a6224383428089f90325f2780310</sys_id>
+        <sys_metadata>ffa0eddbdbc5a8101738656b4b96193e</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Cert Applications</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_app_module_ffa0eddbdbc5a8101738656b4b96193e</sys_update_name>
+        <sys_update_version display_value="sys_app_module_ffa0eddbdbc5a8101738656b4b96193e">ffa0eddbdbc5a8101738656b4b961940</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 05:47:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

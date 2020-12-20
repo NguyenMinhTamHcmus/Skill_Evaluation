@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script_client">
+    <sys_script_client action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <applies_extended>false</applies_extended>
+        <condition/>
+        <description>Allow user to see level field in submission table after submission.</description>
+        <field>se_submission_assign_to</field>
+        <global>true</global>
+        <isolate_script>true</isolate_script>
+        <messages/>
+        <name>VisibleLevelFieldForSEUser</name>
+        <order/>
+        <script><![CDATA[function onLoad() {
+   //Type appropriate comment here, and begin script below
+	var state = 0;
+	if(!g_user.hasRole('x_560219_se.se_admin') && g_form.getValue('se_submission_level') == 0){
+		g_form.setVisible('se_submission_level', false);
+	}
+	/*
+	var sysid = g_form.getUniqueValue();
+	var ajax = new GlideAjax('clientSubmission');
+	ajax.addParam('sysparm_name','getState');
+	ajax.addParam('submission_sys_id',sysid);
+	ajax.getXML(preventUser);
+	//respone contain answer attribute - returned value from script include's function
+	function preventUser(response){
+		var stateFromScriptInclude = response.responseXML.documentElement.getAttribute("answer");
+		//if user is not admin and state is not draft, the visibility of level field is false
+		if(!g_user.hasRole('x_560219_se.se_admin') && stateFromScriptInclude == 0){
+			g_form.setVisible('se_submission_level', false);
+		}
+	}
+	*/
+}]]></script>
+        <sys_class_name>sys_script_client</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 12:47:44</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>14e988fbdb89e8101738656b4b961985</sys_id>
+        <sys_mod_count>30</sys_mod_count>
+        <sys_name>VisibleLevelFieldForSEUser</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_script_client_14e988fbdb89e8101738656b4b961985</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 07:13:31</sys_updated_on>
+        <table>x_560219_se_submission</table>
+        <type>onLoad</type>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_script_client>
+</record_update>

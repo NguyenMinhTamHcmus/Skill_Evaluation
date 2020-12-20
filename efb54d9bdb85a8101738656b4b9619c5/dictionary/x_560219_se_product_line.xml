@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Product Line" max_length="40" name="x_560219_se_product_line" sizeclass="9" type="collection">
+        <element label="Description" max_length="50" name="se_product_line_description" type="string"/>
+        <element display="true" label="Product line" max_length="50" name="se_product_line_product_line" type="string"/>
+    </element>
+</database>

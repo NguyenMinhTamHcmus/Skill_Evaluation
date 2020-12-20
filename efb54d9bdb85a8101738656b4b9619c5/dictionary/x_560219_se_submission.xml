@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Submission" max_length="40" name="x_560219_se_submission" sizeclass="2" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element label="Assigned to" max_length="32" name="se_submission_assign_to" reference="sys_user" type="reference"/>
+        <element label="Description" max_length="500" name="se_submission_description" type="string"/>
+        <element label="Level" max_length="32" name="se_submission_level" reference="x_560219_se_level" type="reference"/>
+        <element label="Opened by" max_length="32" name="se_submission_opened_by" reference="sys_user" type="reference"/>
+        <element label="Score" max_length="40" name="se_submission_score" type="integer"/>
+        <element choice="3" default="0" label="State" max_length="50" name="se_submission_state" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Completed" value="3"/>
+                <element inactive_on_update="false" label="Draft" value="0"/>
+                <element inactive_on_update="false" label="Reviewed" value="2"/>
+                <element inactive_on_update="false" label="Submitted" value="1"/>
+            </choice>
+        </element>
+        <element default="true" label="Valid" max_length="40" name="se_submission_valid" type="boolean"/>
+        <element label="Work notes" max_length="4000" name="se_submission_work_notes" type="journal_input"/>
+        <index name="index">
+            <element name="se_submission_opened_by"/>
+        </index>
+        <index name="index2">
+            <element name="se_submission_level"/>
+        </index>
+        <index name="index3">
+            <element name="se_submission_assign_to"/>
+        </index>
+    </element>
+</database>

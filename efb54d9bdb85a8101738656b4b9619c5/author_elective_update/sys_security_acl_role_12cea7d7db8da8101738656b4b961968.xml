@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role">
+    <sys_security_acl_role action="DELETE">
+        <sys_class_name>sys_security_acl_role</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 16:07:04</sys_created_on>
+        <sys_id>12cea7d7db8da8101738656b4b961968</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_submission.x_560219_se.se_admin</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_security_acl display_value="x_560219_se_submission">dacea7d7db8da8101738656b4b961964</sys_security_acl>
+        <sys_update_name>sys_security_acl_role_12cea7d7db8da8101738656b4b961968</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 16:07:04</sys_updated_on>
+        <sys_user_role display_value="x_560219_se.se_admin" name="x_560219_se.se_admin">25d5cd9bdb85a8101738656b4b961990</sys_user_role>
+        <transaction_id/>
+    </sys_security_acl_role>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_security_acl_role_12cea7d7db8da8101738656b4b961968</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl_role"><sys_security_acl_role action="INSERT_OR_UPDATE"><sys_class_name>sys_security_acl_role</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-18 16:07:04</sys_created_on><sys_id>12cea7d7db8da8101738656b4b961968</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_560219_se_submission.x_560219_se.se_admin</sys_name><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_security_acl display_value="x_560219_se_submission">dacea7d7db8da8101738656b4b961964</sys_security_acl><sys_update_name>sys_security_acl_role_12cea7d7db8da8101738656b4b961968</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-18 16:07:04</sys_updated_on><sys_user_role display_value="x_560219_se.se_admin" name="x_560219_se.se_admin">25d5cd9bdb85a8101738656b4b961990</sys_user_role><transaction_id/></sys_security_acl_role></record_update>]]></payload>
+        <payload_hash>885244311</payload_hash>
+        <record_name>x_560219_se_submission.x_560219_se.se_admin</record_name>
+        <reverted_from/>
+        <source>efb54d9bdb85a8101738656b4b9619c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 16:07:04</sys_created_on>
+        <sys_id>9ecea7d7db8da8101738656b4b96196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176769acadb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 16:07:04</sys_updated_on>
+        <type>Access Roles</type>
+        <update_guid>d6cea7d7b28da810385695117d8b8b6a</update_guid>
+        <update_guid_history>d6cea7d7b28da810385695117d8b8b6a:885244311</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="x_560219_se_submission.x_560219_se.se_admin">14152befdb09e8101738656b4b961988</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 10:03:05</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl_role">sys_security_acl_role</sys_db_object>
+        <sys_id>06e1152daebe480d805832e85ec2d311</sys_id>
+        <sys_metadata>12cea7d7db8da8101738656b4b961968</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_submission.x_560219_se.se_admin</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent display_value="x_560219_se_submission">dacea7d7db8da8101738656b4b961964</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_role_12cea7d7db8da8101738656b4b961968</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_role_12cea7d7db8da8101738656b4b961968">9ecea7d7db8da8101738656b4b96196a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-19 10:03:05</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

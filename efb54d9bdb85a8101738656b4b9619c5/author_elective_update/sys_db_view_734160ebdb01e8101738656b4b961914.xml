@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view">
+    <sys_db_view action="DELETE">
+        <description/>
+        <label/>
+        <name>x_560219_se_skill_assessment_skill</name>
+        <plural/>
+        <sys_class_name>sys_db_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 19:48:21</sys_created_on>
+        <sys_id>734160ebdb01e8101738656b4b961914</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_skill_assessment_skill</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_db_view_734160ebdb01e8101738656b4b961914</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 19:48:21</sys_updated_on>
+    </sys_db_view>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_db_view_734160ebdb01e8101738656b4b961914</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view"><sys_db_view action="INSERT_OR_UPDATE"><description/><label/><name>x_560219_se_skill_assessment_skill</name><plural/><sys_class_name>sys_db_view</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-18 19:48:21</sys_created_on><sys_id>734160ebdb01e8101738656b4b961914</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_560219_se_skill_assessment_skill</sys_name><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_update_name>sys_db_view_734160ebdb01e8101738656b4b961914</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-18 19:48:21</sys_updated_on></sys_db_view></record_update>]]></payload>
+        <payload_hash>-401748673</payload_hash>
+        <record_name>x_560219_se_skill_assessment_skill</record_name>
+        <reverted_from/>
+        <source>efb54d9bdb85a8101738656b4b9619c7</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 19:48:21</sys_created_on>
+        <sys_id>6761a0ebdb01e8101738656b4b9619ad</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176776561c00000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 19:48:21</sys_updated_on>
+        <type>Database View</type>
+        <update_guid>af61a0eba501e81075b57c65260facac</update_guid>
+        <update_guid_history>af61a0eba501e81075b57c65260facac:-401748673</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-18 19:48:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view">sys_db_view</sys_db_object>
+        <sys_id>ae7b3363d48b4088b73e4234a3674790</sys_id>
+        <sys_metadata>734160ebdb01e8101738656b4b961914</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_skill_assessment_skill</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_db_view_734160ebdb01e8101738656b4b961914</sys_update_name>
+        <sys_update_version display_value="sys_db_view_734160ebdb01e8101738656b4b961914">6761a0ebdb01e8101738656b4b9619ad</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-18 19:48:35</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>
