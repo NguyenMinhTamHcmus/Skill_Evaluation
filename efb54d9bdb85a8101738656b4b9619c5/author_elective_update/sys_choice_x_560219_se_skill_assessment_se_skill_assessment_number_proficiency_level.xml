@@ -21,7 +21,7 @@
             <element>se_skill_assessment_number_proficiency_level</element>
             <hint/>
             <inactive>false</inactive>
-            <label>0 - Not Applicable</label>
+            <label>N/A</label>
             <language>en</language>
             <name>x_560219_se_skill_assessment</name>
             <sequence/>
@@ -30,9 +30,9 @@
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
             <sys_id>b76fee57dbc9a8101738656b4b961936</sys_id>
-            <sys_mod_count>1</sys_mod_count>
+            <sys_mod_count>2</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:33:19</sys_updated_on>
+            <sys_updated_on>2020-12-21 06:50:28</sys_updated_on>
             <value>0</value>
         </sys_choice>
         <sys_choice action="INSERT_OR_UPDATE">

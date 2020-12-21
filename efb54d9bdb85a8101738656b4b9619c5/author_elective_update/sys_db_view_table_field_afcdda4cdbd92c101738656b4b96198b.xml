@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field">
+    <sys_db_view_table_field action="DELETE">
+        <field>sys_id</field>
+        <sys_class_name>sys_db_view_table_field</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:08:46</sys_created_on>
+        <sys_id>afcdda4cdbd92c101738656b4b96198b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_db_view_table_field_afcdda4cdbd92c101738656b4b96198b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:08:46</sys_updated_on>
+        <table>x_560219_se_skill</table>
+        <view_table display_value="x_560219_se_skill">19fb9ac8dbd92c101738656b4b961977</view_table>
+    </sys_db_view_table_field>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_db_view_table_field_afcdda4cdbd92c101738656b4b96198b</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_db_view_table_field"><sys_db_view_table_field action="INSERT_OR_UPDATE"><field>sys_id</field><sys_class_name>sys_db_view_table_field</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-20 18:08:46</sys_created_on><sys_id>afcdda4cdbd92c101738656b4b96198b</sys_id><sys_mod_count>0</sys_mod_count><sys_name>sys_id</sys_name><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_update_name>sys_db_view_table_field_afcdda4cdbd92c101738656b4b96198b</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-20 18:08:46</sys_updated_on><table>x_560219_se_skill</table><view_table display_value="x_560219_se_skill">19fb9ac8dbd92c101738656b4b961977</view_table></sys_db_view_table_field></record_update>]]></payload>
+        <payload_hash>-2131558098</payload_hash>
+        <record_name>sys_id</record_name>
+        <reverted_from/>
+        <source>9de11ac0dbd92c101738656b4b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:08:46</sys_created_on>
+        <sys_id>ecdd9e4cdbd92c101738656b4b96195a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>1768156eeb20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:08:46</sys_updated_on>
+        <type>View Field</type>
+        <update_guid>28dd9e4cbad92c105b63b80356e3b45a</update_guid>
+        <update_guid_history>28dd9e4cbad92c105b63b80356e3b45a:-2131558098</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:14:58</sys_created_on>
+        <sys_db_object display_value="" name="sys_db_view_table_field">sys_db_view_table_field</sys_db_object>
+        <sys_id>2418f9e67ac24ff8b28c786cde041c21</sys_id>
+        <sys_metadata>afcdda4cdbd92c101738656b4b96198b</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>sys_id</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent display_value="x_560219_se_skill">19fb9ac8dbd92c101738656b4b961977</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_db_view_table_field_afcdda4cdbd92c101738656b4b96198b</sys_update_name>
+        <sys_update_version display_value="sys_db_view_table_field_afcdda4cdbd92c101738656b4b96198b">ecdd9e4cdbd92c101738656b4b96195a</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:14:58</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

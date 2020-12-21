@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Allow write for se_se_skill_assessment_number_proficiency_level in x_560219_se_skill_productline, for users with roles (admin, x_560219_se.se_user, x_560219_se.se_admin).</description>
+        <name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:44:29</sys_created_on>
+        <sys_id>54b56ec0db1d2c101738656b4b9619b5</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_security_acl_54b56ec0db1d2c101738656b4b9619b5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:48:21</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_security_acl_54b56ec0db1d2c101738656b4b9619b5</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Allow write for se_se_skill_assessment_number_proficiency_level in x_560219_se_skill_productline, for users with roles (admin, x_560219_se.se_user, x_560219_se.se_admin).</description><name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-20 18:44:29</sys_created_on><sys_id>54b56ec0db1d2c101738656b4b9619b5</sys_id><sys_mod_count>4</sys_mod_count><sys_name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</sys_name><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_update_name>sys_security_acl_54b56ec0db1d2c101738656b4b9619b5</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-20 18:48:21</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>-430259587</payload_hash>
+        <record_name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</record_name>
+        <reverted_from/>
+        <source>9de11ac0dbd92c101738656b4b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:48:21</sys_created_on>
+        <sys_id>d4e66e04db1d2c101738656b4b961903</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176817b2a5f0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:48:21</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>10e66e04d51d2c1026e2a280ce90e603</update_guid>
+        <update_guid_history>10e66e04d51d2c1026e2a280ce90e603:-430259587,fbb6ea04711d2c109fab2b3ddc106027:599127719,199662040f1d2c10ae4761f29e4b07c1:1427455646,7726e204d81d2c10a131b94e6ca75f99:-430259587,3ff56204dd1d2c10dc9f1c6a10f8553a:1482415285</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-20 18:55:13</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>07e03b33c13742c6804d7719903de581</sys_id>
+        <sys_metadata>54b56ec0db1d2c101738656b4b9619b5</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_skill_productline.se_se_skill_assessment_number_proficiency_level</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_54b56ec0db1d2c101738656b4b9619b5</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_54b56ec0db1d2c101738656b4b9619b5">d4e66e04db1d2c101738656b4b961903</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-20 18:55:13</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

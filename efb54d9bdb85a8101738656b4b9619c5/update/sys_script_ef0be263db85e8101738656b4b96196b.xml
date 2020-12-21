@@ -18,7 +18,7 @@
         <filter_condition/>
         <is_rest>false</is_rest>
         <message/>
-        <name>Submission_onDelete</name>
+        <name>deleteSkAssAndCerAquis</name>
         <order>100</order>
         <priority>100</priority>
         <rest_method/>
@@ -49,15 +49,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef0be263db85e8101738656b4b96196b</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_name>Submission_onDelete</sys_name>
+        <sys_mod_count>5</sys_mod_count>
+        <sys_name>deleteSkAssAndCerAquis</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
         <sys_update_name>sys_script_ef0be263db85e8101738656b4b96196b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-19 06:09:18</sys_updated_on>
+        <sys_updated_on>2020-12-21 08:29:17</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>

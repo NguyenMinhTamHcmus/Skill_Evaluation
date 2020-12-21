@@ -4,111 +4,97 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>bc4f2e57dbc9a8101738656b4b9619ac</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>75013ac8db1d2c101738656b4b961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>se_skill_assessment_number</element>
+            <element>se_skill_assessment_number_proficiency_level</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>344f2e57dbc9a8101738656b4b9619ad</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>f9013ac8db1d2c101738656b4b961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>se_skill_assessment_number_proficiency_level</element>
-            <position>2</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>b44f2e57dbc9a8101738656b4b9619ad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.split</element>
-            <position>3</position>
+            <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>384f2e57dbc9a8101738656b4b9619ad</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>7d013ac8db1d2c101738656b4b961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>se_skill_assessment_skill</element>
-            <position>4</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>b84f2e57dbc9a8101738656b4b9619ad</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
             <element>se_skill_assessment_submission</element>
-            <position>5</position>
+            <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>3c4f2e57dbc9a8101738656b4b9619ad</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>fd013ac8db1d2c101738656b4b961955</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>6</position>
+            <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 11:29:32</sys_created_on>
-            <sys_id>bc4f2e57dbc9a8101738656b4b9619ad</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>71013ac8db1d2c101738656b4b961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 11:29:32</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>number</element>
-            <position>7</position>
+            <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 17:36:06</sys_created_on>
-            <sys_id>62230ca7dbcda8101738656b4b9619f8</sys_id>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>f1013ac8db1d2c101738656b4b961956</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 17:36:06</sys_updated_on>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>se_skill_assessment_skill.se_skill_product_line</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2020-12-20 19:32:41</sys_created_on>
+            <sys_id>75013ac8db1d2c101738656b4b961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_560219_se_skill_assessment" sys_domain="global" view="Default view">704fea57dbc9a8101738656b4b961931</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2020-12-20 19:32:41</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
