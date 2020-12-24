@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Default access control on x_560219_se_cert_acquisition</description>
+        <name>x_560219_se_cert_acquisition</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = true;
+var grSubmission = new GlideRecord('x_560219_se_submission');
+grSubmission.addQuery('sys_id',current.se_cert_acquisition_submission);
+grSubmission.query();
+while(grSubmission.next()){
+	if(grSubmission.se_submission_state != "0"  && gs.hasRole('x_560219_se.se_user'))
+		answer = false;
+}
+answer = true;]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-19 06:25:06</sys_created_on>
+        <sys_id>c3233a2bdb85e8101738656b4b96192a</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>x_560219_se_cert_acquisition</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_security_acl_c3233a2bdb85e8101738656b4b96192a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 13:25:56</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_security_acl_c3233a2bdb85e8101738656b4b96192a</name>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update table="sys_security_acl"&gt;&lt;sys_security_acl action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;admin_overrides&gt;true&lt;/admin_overrides&gt;&lt;advanced&gt;true&lt;/advanced&gt;&lt;condition/&gt;&lt;description&gt;Default access control on x_560219_se_cert_acquisition&lt;/description&gt;&lt;name&gt;x_560219_se_cert_acquisition&lt;/name&gt;&lt;operation display_value="write"&gt;write&lt;/operation&gt;&lt;script&gt;&lt;![CDATA[answer = true;
+var grSubmission = new GlideRecord('x_560219_se_submission');
+grSubmission.addQuery('sys_id',current.se_cert_acquisition_submission);
+grSubmission.query();
+while(grSubmission.next()){
+	if(grSubmission.se_submission_state != "0"  &amp;&amp; gs.hasRole('x_560219_se.se_user'))
+		answer = false;
+}
+answer = true;]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_security_acl&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2020-12-19 06:25:06&lt;/sys_created_on&gt;&lt;sys_id&gt;c3233a2bdb85e8101738656b4b96192a&lt;/sys_id&gt;&lt;sys_mod_count&gt;3&lt;/sys_mod_count&gt;&lt;sys_name&gt;x_560219_se_cert_acquisition&lt;/sys_name&gt;&lt;sys_package display_value="Skill Evaluation" source="x_560219_se"&gt;efb54d9bdb85a8101738656b4b9619c5&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Skill Evaluation"&gt;efb54d9bdb85a8101738656b4b9619c5&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_security_acl_c3233a2bdb85e8101738656b4b96192a&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2020-12-21 13:25:56&lt;/sys_updated_on&gt;&lt;type display_value="record"&gt;record&lt;/type&gt;&lt;/sys_security_acl&gt;&lt;/record_update&gt;</payload>
+        <payload_hash>1547501629</payload_hash>
+        <record_name>x_560219_se_cert_acquisition</record_name>
+        <reverted_from/>
+        <source>9de11ac0dbd92c101738656b4b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 13:25:56</sys_created_on>
+        <sys_id>c7a66e5cdb956c101738656b4b96192b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176857a59370000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 13:25:56</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>03a66e5c63956c109b917e002ca6492b</update_guid>
+        <update_guid_history>03a66e5c63956c109b917e002ca6492b:1547501629,1626e69c91956c107df904afad64eb3f:1465840555,4ea4e25c01956c106c28506fe11801d2:804055668,c3233a2b8c85e810826297553db49d2c:-1326240938</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 13:32:00</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>0fb4968b0c2c4b1db90c76d8ced0c2a9</sys_id>
+        <sys_metadata>c3233a2bdb85e8101738656b4b96192a</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_560219_se_cert_acquisition</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent display_value="x_560219_se_cert_acquisition">ee01291fdbc5a8101738656b4b96190f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_security_acl_c3233a2bdb85e8101738656b4b96192a</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_c3233a2bdb85e8101738656b4b96192a">c7a66e5cdb956c101738656b4b96192b</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 13:32:00</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

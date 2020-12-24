@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>true</advanced>
+        <condition/>
+        <description>Allow write for records in x_560219_se_cert_acquisition, for users with roles (x_560219_se.se_admin, x_560219_se.se_user), and if the ACL script returns true.</description>
+        <name>x_560219_se_cert_acquisition</name>
+        <operation display_value="write">write</operation>
+        <script><![CDATA[answer = true;
+var grSubmission = new GlideRecord('x_560219_se_submission');
+grSubmission.addQuery('sys_id', current.se_cert_acquisition_submission);
+grSubmission.query();
+while(grSubmission.next){
+	if(grSubmission.se_submission_state != "0" && gs.hasRole('x_560219_se.se_user'))//completed
+		answer = false;
+	if(grSubmission.se_submission_state != "3")
+		answer = false;
+}]]></script>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-21 13:03:59</sys_created_on>
+        <sys_id>e18b5654db956c101738656b4b96196b</sys_id>
+        <sys_mod_count>4</sys_mod_count>
+        <sys_name>x_560219_se_cert_acquisition</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_security_acl_e18b5654db956c101738656b4b96196b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-21 13:43:35</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+</record_update>

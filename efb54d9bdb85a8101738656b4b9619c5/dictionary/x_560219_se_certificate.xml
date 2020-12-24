@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element label="Certificate" max_length="40" name="x_560219_se_certificate" sizeclass="14" type="collection">
+    <element label="Certificate" max_length="40" name="x_560219_se_certificate" sizeclass="13" type="collection">
         <element display="true" label="Certificate name" max_length="50" name="se_certificate_certificate_name" type="string"/>
         <element label="Product line" max_length="32" name="se_certificate_product_line" reference="x_560219_se_product_line" type="reference"/>
         <index name="index">
