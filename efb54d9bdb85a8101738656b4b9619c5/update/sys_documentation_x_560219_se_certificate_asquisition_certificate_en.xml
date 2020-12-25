@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="se_cert_acquisition_certificate_date" label="Certificate date" language="en" table="x_560219_se_cert_acquisition">
+    <sys_documentation element="certificate" label="Certificate" language="en" table="x_560219_se_certificate_asquisition">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>se_cert_acquisition_certificate_date</element>
+            <element>certificate</element>
             <help/>
             <hint/>
-            <label>Certificate date</label>
+            <label>Certificate</label>
             <language>en</language>
-            <name>x_560219_se_cert_acquisition</name>
-            <plural>Certificate dates</plural>
+            <name>x_560219_se_certificate_asquisition</name>
+            <plural>Certificates</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2020-12-18 06:52:46</sys_created_on>
-            <sys_id>6aef655bdb09a8101738656b4b9619dd</sys_id>
+            <sys_created_on>2020-12-25 09:05:08</sys_created_on>
+            <sys_id>b55116e5db1920501738656b4b961909</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_name>Certificate date</sys_name>
+            <sys_name>Certificate</sys_name>
             <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
             <sys_policy/>
             <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
-            <sys_update_name>sys_documentation_x_560219_se_cert_acquisition_se_cert_acquisition_certificate_date_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_560219_se_certificate_asquisition_certificate_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2020-12-18 06:52:46</sys_updated_on>
+            <sys_updated_on>2020-12-25 09:05:08</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Certificate Asquisition" max_length="40" name="x_560219_se_certificate_asquisition" type="collection">
+        <element label="Certificate" max_length="32" name="certificate" reference="x_560219_se_certificate" type="reference"/>
+        <element label="Submission" max_length="32" name="submission" reference="x_560219_se_submission" type="reference"/>
+        <index name="index">
+            <element name="certificate"/>
+        </index>
+        <index name="index2">
+            <element name="submission"/>
+        </index>
+    </element>
+</database>

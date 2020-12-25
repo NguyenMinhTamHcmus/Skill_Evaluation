@@ -1,28 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_ui_module">
     <sys_ui_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Cert ">2a01e51fdbc5a8101738656b4b9619f4</application>
+        <application display_value="Certificate Asquisition">f09b86e1db1920501738656b4b9619b1</application>
         <filter/>
-        <name>Cert Acquisitions</name>
+        <name>Certificate Asquisitions</name>
         <order/>
         <path/>
         <path_relative_to_root>false</path_relative_to_root>
-        <roles/>
+        <roles>x_560219_se.certificate_asquisition_user</roles>
         <sys_class_name>sys_ui_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 05:47:46</sys_created_on>
+        <sys_created_on>2020-12-25 08:39:57</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>a601e51fdbc5a8101738656b4b9619f6</sys_id>
+        <sys_id>f09b86e1db1920501738656b4b9619b4</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cert Acquisitions</sys_name>
+        <sys_name>Certificate Asquisitions</sys_name>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
-        <sys_update_name>sys_ui_module_a601e51fdbc5a8101738656b4b9619f6</sys_update_name>
+        <sys_update_name>sys_ui_module_f09b86e1db1920501738656b4b9619b4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 05:47:46</sys_updated_on>
-        <table>x_560219_se_cert_acquisition</table>
+        <sys_updated_on>2020-12-25 08:39:57</sys_updated_on>
+        <table>x_560219_se_certificate_asquisition</table>
         <uncancelable>false</uncancelable>
         <view_name/>
     </sys_ui_module>

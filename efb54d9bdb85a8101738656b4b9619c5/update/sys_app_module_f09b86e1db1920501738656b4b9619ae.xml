@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_module">
     <sys_app_module action="INSERT_OR_UPDATE">
         <active>true</active>
-        <application display_value="Cert ">9a01e51fdbc5a8101738656b4b9619ef</application>
+        <application display_value="Certificate Asquisition">349b46e1db1920501738656b4b96198c</application>
         <assessment/>
         <device_type/>
         <filter/>
@@ -10,31 +10,31 @@
         <image/>
         <link_type>LIST</link_type>
         <map_page/>
-        <mobile_title>Cert Acquisitions</mobile_title>
+        <mobile_title>Certificate Asquisitions</mobile_title>
         <mobile_view_name>Mobile</mobile_view_name>
-        <name>x_560219_se_cert_acquisition</name>
+        <name>x_560219_se_certificate_asquisition</name>
         <order/>
         <override_menu_roles>false</override_menu_roles>
         <query/>
         <report/>
-        <roles/>
+        <roles>x_560219_se.certificate_asquisition_user</roles>
         <sys_class_name>sys_app_module</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2020-12-18 05:47:46</sys_created_on>
+        <sys_created_on>2020-12-25 08:39:56</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
-        <sys_id>2201e51fdbc5a8101738656b4b9619f2</sys_id>
+        <sys_id>f09b86e1db1920501738656b4b9619ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>Cert Acquisitions</sys_name>
+        <sys_name>Certificate Asquisitions</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
         <sys_policy/>
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
-        <sys_update_name>sys_app_module_2201e51fdbc5a8101738656b4b9619f2</sys_update_name>
+        <sys_update_name>sys_app_module_f09b86e1db1920501738656b4b9619ae</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-18 05:47:46</sys_updated_on>
+        <sys_updated_on>2020-12-25 08:39:56</sys_updated_on>
         <timeline_page/>
-        <title>Cert Acquisitions</title>
+        <title>Certificate Asquisitions</title>
         <uncancelable>false</uncancelable>
         <view_name/>
         <window_name/>

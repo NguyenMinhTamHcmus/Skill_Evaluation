@@ -6,7 +6,7 @@
         <action_insert>false</action_insert>
         <action_query>false</action_query>
         <action_update>false</action_update>
-        <active>false</active>
+        <active>true</active>
         <add_message>false</add_message>
         <advanced>true</advanced>
         <change_fields>false</change_fields>
@@ -49,7 +49,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>ef0be263db85e8101738656b4b96196b</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>deleteSkAssAndCerAquis</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
@@ -57,7 +57,7 @@
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
         <sys_update_name>sys_script_ef0be263db85e8101738656b4b96196b</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-25 04:10:32</sys_updated_on>
+        <sys_updated_on>2020-12-25 09:10:32</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
