@@ -30,6 +30,7 @@
         <onclick/>
         <order>100</order>
         <script><![CDATA[var scriptSubmission = new serverSubmission(); 
+
 if(scriptSubmission.checkUserHasNoInProgressSubmission()){
 	//if user doesn't have an 'in-progress' record.
 	var grSubmission = new GlideRecord('x_560219_se_submission');
@@ -66,7 +67,7 @@ if(scriptSubmission.checkUserHasNoInProgressSubmission()){
 		grSubmission.se_submission_level = level_sysid;
 		grSubmission.update();
 	}
-
+	gs.eventQueue('x_560219_se.submit_for_review',current,current.number,gs.getUserName());
 	gs.addInfoMessage("Submitted successfully");
 	
 	//add event to event queue to process
@@ -85,7 +86,7 @@ else{
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>6287739fdb8da8101738656b4b961948</sys_id>
-        <sys_mod_count>88</sys_mod_count>
+        <sys_mod_count>94</sys_mod_count>
         <sys_name>Submit for review</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
@@ -93,7 +94,7 @@ else{
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
         <sys_update_name>sys_ui_action_6287739fdb8da8101738656b4b961948</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-24 14:49:37</sys_updated_on>
+        <sys_updated_on>2020-12-25 10:36:25</sys_updated_on>
         <table>x_560219_se_submission</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

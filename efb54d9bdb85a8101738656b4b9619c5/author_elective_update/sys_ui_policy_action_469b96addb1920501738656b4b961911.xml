@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="DELETE">
+        <cleared>false</cleared>
+        <disabled>ignore</disabled>
+        <field>submission</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 09:50:12</sys_created_on>
+        <sys_id>469b96addb1920501738656b4b961911</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>submission</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_update_name>sys_ui_policy_action_469b96addb1920501738656b4b961911</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 09:50:12</sys_updated_on>
+        <table>x_560219_se_certificate_asquisition</table>
+        <ui_policy display_value="Mandatory for creation field">471b16addb1920501738656b4b96191f</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</application>
+        <file_path/>
+        <instance_id>b5b82be2db5c77402f68c597059619a2</instance_id>
+        <instance_name>dev76773</instance_name>
+        <name>sys_ui_policy_action_469b96addb1920501738656b4b961911</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_policy_action"><sys_ui_policy_action action="INSERT_OR_UPDATE"><cleared>false</cleared><disabled>ignore</disabled><field>submission</field><mandatory>ignore</mandatory><sys_class_name>sys_ui_policy_action</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2020-12-25 09:50:12</sys_created_on><sys_id>469b96addb1920501738656b4b961911</sys_id><sys_mod_count>0</sys_mod_count><sys_name>submission</sys_name><sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package><sys_policy/><sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope><sys_update_name>sys_ui_policy_action_469b96addb1920501738656b4b961911</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2020-12-25 09:50:12</sys_updated_on><table>x_560219_se_certificate_asquisition</table><ui_policy display_value="Mandatory for creation field">471b16addb1920501738656b4b96191f</ui_policy><visible>ignore</visible></sys_ui_policy_action></record_update>]]></payload>
+        <payload_hash>80049997</payload_hash>
+        <record_name>submission</record_name>
+        <reverted_from/>
+        <source>9de11ac0dbd92c101738656b4b9619c6</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 09:50:12</sys_created_on>
+        <sys_id>31ab9a6ddb1920501738656b4b961931</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>176994e45360000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 09:50:12</sys_updated_on>
+        <type>UI Policy Action</type>
+        <update_guid>79ab9a6db4192050025d26049ff1ef30</update_guid>
+        <update_guid_history>79ab9a6db4192050025d26049ff1ef30:80049997</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2020-12-25 09:50:21</sys_created_on>
+        <sys_db_object display_value="" name="sys_ui_policy_action">sys_ui_policy_action</sys_db_object>
+        <sys_id>12702dcc0b2f438e85abd6a980a90964</sys_id>
+        <sys_metadata>469b96addb1920501738656b4b961911</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>submission</sys_name>
+        <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
+        <sys_parent display_value="Mandatory for creation field">471b16addb1920501738656b4b96191f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
+        <sys_scope_delete display_value="">38350371ddbc42aaa7a9165bc8c113a4</sys_scope_delete>
+        <sys_update_name>sys_ui_policy_action_469b96addb1920501738656b4b961911</sys_update_name>
+        <sys_update_version display_value="sys_ui_policy_action_469b96addb1920501738656b4b961911">31ab9a6ddb1920501738656b4b961931</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2020-12-25 09:50:21</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

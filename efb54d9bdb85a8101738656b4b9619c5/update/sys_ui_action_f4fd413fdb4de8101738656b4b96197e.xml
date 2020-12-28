@@ -37,7 +37,8 @@ while(grSubmission.next()){
 	grSubmission.se_submission_state = "2";
 	grSubmission.update();
 }
-gs.addInfoMessage("Approve successfully!");]]></script>
+gs.addInfoMessage("Approve successfully!");
+gs.eventQueue('x_560219_se.PM_Approve',current,current.number,gs.getUserName());]]></script>
         <show_insert>true</show_insert>
         <show_multiple_update>false</show_multiple_update>
         <show_query>false</show_query>
@@ -48,7 +49,7 @@ gs.addInfoMessage("Approve successfully!");]]></script>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>f4fd413fdb4de8101738656b4b96197e</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>7</sys_mod_count>
         <sys_name>PM approve</sys_name>
         <sys_overrides/>
         <sys_package display_value="Skill Evaluation" source="x_560219_se">efb54d9bdb85a8101738656b4b9619c5</sys_package>
@@ -56,7 +57,7 @@ gs.addInfoMessage("Approve successfully!");]]></script>
         <sys_scope display_value="Skill Evaluation">efb54d9bdb85a8101738656b4b9619c5</sys_scope>
         <sys_update_name>sys_ui_action_f4fd413fdb4de8101738656b4b96197e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2020-12-19 18:24:17</sys_updated_on>
+        <sys_updated_on>2020-12-25 10:27:00</sys_updated_on>
         <table>x_560219_se_submission</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

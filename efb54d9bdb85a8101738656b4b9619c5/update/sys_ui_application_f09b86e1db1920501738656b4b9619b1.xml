@@ -4,7 +4,7 @@
         <hint/>
         <name>Certificate Asquisition</name>
         <order/>
-        <roles>x_560219_se.certificate_asquisition_user</roles>
+        <roles/>
         <sys_class_name>sys_ui_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2020-12-25 08:39:57</sys_created_on>
